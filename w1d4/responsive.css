@@ -1,0 +1,85 @@
+body{
+	background-color=blue;
+}
+#header{
+	width:auto;
+	height:60px;
+	  text-align: center;
+	background-color:lightblue;
+	padding-top:25px;
+	font-size:14px;
+	font-family:century gothic,times;
+	font-weight:bold;
+	
+}
+#nav{
+	margin:0;
+	width:auto;
+	height:40px;
+     background-color:#0B1907;
+	padding:5px;
+	font-size:14px;
+	font-family:century gothic,times;
+	font-weight:bold;
+	
+	
+}
+#content{
+	display:grid;
+	grid-template-columns:25% 50% 25%;
+	width:auto;
+	height:auto;
+
+}
+#d1{
+	height:400px;
+	width:auto;
+    background-color:#A4A4A4;
+	
+}
+#d2{
+	height:400px;
+	width:auto;
+    background-color:#6E6E6E;
+	
+}
+#d3{
+	height:400px;
+	width:auto;
+    background-color:#F5EFFB;
+	
+}
+ul{
+	list-style-type:none;
+	color:white;
+}
+li{
+	float:left;
+	margin-right:10px;
+	 border-right: 1px solid; padding-right: 10px;
+}
+#footer{
+	width:auto;
+	height:60px;
+	  text-align: center;
+	 color: white;
+	background-color:#0B1907;
+	padding-top:25px;
+	font-size:14px;
+	font-family:century gothic,times;
+	font-weight:bold;
+	
+	
+}
+@media only screen and (max-width:600px) {
+   #content{
+	  display:grid;
+	  grid-template-columns:auto auto;
+	  grid-template-areas:'d1 d3 d2';
+       width:100%;
+  }
+ 
+   #d2{
+	  grid-column:1/span 2;
+  }
+
