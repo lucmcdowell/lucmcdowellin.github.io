@@ -2,7 +2,7 @@
 #header{
 	width:auto;
 	height:60px;
-	  text-align: center;
+	text-align: center;
 	background-color:lightblue;
 	padding-top:25px;
 	font-size:14px;
@@ -14,7 +14,7 @@
 	margin:0;
 	width:auto;
 	height:40px;
-     background-color:#0B1907;
+	background-color:#21363e;
 	padding:5px;
 	font-size:14px;
 	font-family:century gothic,times;
@@ -61,7 +61,7 @@ li{
 	height:60px;
 	  text-align: center;
 	 color: white;
-	background-color:#0B1907;
+	background-color:#21363e;
 	padding-top:25px;
 	font-size:14px;
 	font-family:century gothic,times;
