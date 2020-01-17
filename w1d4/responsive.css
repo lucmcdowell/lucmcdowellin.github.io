@@ -1,4 +1,7 @@
-
+body{
+	margin:0;
+	padding:0;
+}
 #header{
 	width:auto;
 	height:60px;
