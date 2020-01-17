@@ -70,15 +70,14 @@ li{
 	
 }
 @media only screen and (max-width:600px) {
-   #content{
-	  display:grid;
-	  grid-template-columns:auto auto;
-	  grid-template-areas:'d1 d3 d2';
-       width:100%;
-  }
- 
-   #d2 {
-	   grid-column: 1/span 2;
-   }
+	#content{
+		display:grid;
+		grid-template-columns:auto auto;
+		grid-template-areas:'d1 d3'
+							'd2 d2';
+	}
+	#d2{
+		grid-area:  2 / span 2;
+	}
   }
 
