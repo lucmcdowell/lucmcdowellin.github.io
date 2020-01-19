@@ -174,7 +174,7 @@ function filterLongWords(longWords, i) {
 }
 
 const expected  = filterLongWords(words, 9);
-console.log("Expected output of filterLongWords(words) is ['manarihon ']  " + myFunctionTest( expected, filterLongWords(words,9)));
+console.log("Expected output of filterLongWords(words) is ['manarihon']  " + myFunctionTest( expected, filterLongWords(words,9)));
 console.assert(myFunctionTest2( expected, filterLongWords(words)), 'Expected output of filterLongWords(words) is [manarihon]');
 
 
