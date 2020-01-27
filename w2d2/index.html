@@ -1,0 +1,39 @@
+<!-- Dear professor,
+   I have done unit testing using mocha for ArrayListToArray, reverse, deepEqual, listToArray, prepend, nth and recNth
+  This exercise helped me to learn how to use Mocha, Object.keys, use script, and also thinking hard to create 
+  a good algorithm in javascript.
+  -->
+  <meta charset="UTF-8">
+  <title>Intro to Js</title>
+
+  <!-- importing mocha css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- importing mocha -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script>
+    mocha.setup('bdd'); // minimal setup
+  </script>
+  <!-- importing chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    // setup global
+    let assert = chai.assert;
+  </script>
+  <script src="deepEqual.js"></script>
+  <script src="reverse.js"></script>
+  <script src="prepend.js"></script>
+  <script src="arrayList.js"></script>
+  <script src="nth.js"></script>
+  
+</head>
+<body>
+    <h1>
+      JS Practice
+    </h1>
+<!-- update element, so the ui will change -->
+<div id="mocha"></div>
+<script>
+  mocha.run();
+</script>
+</body>
+</html>
