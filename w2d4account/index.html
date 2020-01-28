@@ -1,0 +1,47 @@
+<!--  
+
+   I have done the first part of part one of the assignment which has helped me 
+   to appreciate constructors versus object literals, the value of "this", 
+   the use of the property [[Prototype]], how to set a correct inheritance
+   hieracy and how properties and methods are accessed in the hierachy.
+   It has also helped me to master the use of "use strict" and mocha tests as well as
+   using jslint and jshint
+
+  -->
+  <meta charset="UTF-8">
+  <title>Intro to Js</title>
+
+  <!-- importing mocha css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+  <!-- importing mocha -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+  <script>
+    mocha.setup('bdd'); // minimal setup
+  </script>
+  <!-- importing chai -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+  <script>
+    // setup global
+    let assert = chai.assert;
+  </script>
+  
+  <script src="account.js"></script>
+  <script src="test.js"></script>
+  <script src="savingsaccount.js"></script>
+  <script src="checkingaccount.js"></script>
+  <script src="bank.js"></script>
+
+
+  
+</head>
+<body>
+    <h1>
+      JS Classes
+    </h1>
+    <p>Open console to view Output</p>
+<div id="mocha"></div>
+<script>
+  mocha.run();
+</script>
+</body>
+</html>
